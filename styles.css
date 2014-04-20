@@ -1,0 +1,150 @@
+html { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+  background-color: white;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+#wrapper {
+	width: 960px;
+	color: black;
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: auto ;
+	margin-right: auto ;
+	position:relative;
+}
+
+#banner {
+  clear: both;
+  height: 125px;
+  width: 740px;
+}
+
+#corner {
+  position: fixed;
+}
+
+#nav {
+  float: left;
+  width: 200px;
+  position: fixed;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#nav li {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  float: right;
+	text-align: left;
+  width: 740px;
+}
+
+hr {
+  height: 1px;
+  background-color: #5C7293;
+  border: none;
+}
+
+
+a {
+	/*color: white;	*/
+  /*color: orange;*/
+  /*color: #FFFF64*/
+  /*color: #5DA5A1*/
+  color: #5C7293;
+}
+
+h1 {
+	font-size: 22pt;
+	font-weight: bold;
+	color: #5C7293;
+}
+
+#footer {
+	padding-top: 50px;
+	font-size: 8pt;
+	text-align: center;
+  clear: both;
+  background-color: #5C7293;
+  color: white;
+}
+#footer a{
+	color: white;
+}
+
+/* ---------------------------------------------------------------- */
+/* FLOATS */
+
+.float-right {
+	float: right;
+	margin-left: 10px;
+}
+.float-left {
+	float: left;
+	margin-right: 10px;
+}
+
+/* ---------------------------------------------------------------- */
+/* FORMATTING */
+
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.small {
+	font-size: small;
+}
+
+.center {
+	text-align: center;
+}
+
+img.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------------------------------------------------------------- */
+/* LISTS */
+
+ul {
+  margin: 0;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+}
+
+ul li, ol li {
+	margin-top: 10px;
+}
+
+ul.nopadding li, ol.nopadding li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.padding li, ol.padding li{
+	padding-bottom: 1em;
+}
