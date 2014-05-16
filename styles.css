@@ -1,3 +1,7 @@
+/* Compass spokes light blue: #252161
+   Banner lettering dark blue: #252161
+*/
+
 html { 
 	margin: 0;
 	padding: 0;
@@ -13,30 +17,39 @@ body {
 }
 
 #wrapper {
-	width: 960px;
+	width: 940px;
 	color: black;
 	margin-top: 0;
 	padding-top: 0;
 	margin-left: auto ;
 	margin-right: auto ;
 	position:relative;
+  
+  border-right: 2px solid #252161;
+  background-color: #252161;
 }
 
 #banner {
   clear: both;
-  height: 125px;
+  height: 271px;
   width: 740px;
-}
-
-#corner {
-  position: fixed;
+  float: right;
+  margin-bottom: 40px;
 }
 
 #nav {
   float: left;
-  width: 200px;
+  width: 180px;
   position: fixed;
-  font-size: 14pt;
+  font-size: 12pt;
+  padding: 10px;
+  color: white;
+  /*background-color: #252161;*/
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
 }
 
 #nav ul {
@@ -46,19 +59,27 @@ body {
 }
 #nav li {
   margin: 0;
-  padding-bottom: .5em;
+  padding-bottom: 1em;
 }
 
-#main {
+#main  {
   float: right;
 	text-align: left;
   width: 740px;
-  margin-bottom: 10px;
+  background-color: white;
+  border-left: 2px solid #252161;
+}
+
+#content {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
 }
 
 hr {
-  height: 1px;
-  background-color: #5C7293;
+  height: 2px;
+  background-color: #252161;
   border: none;
 }
 
@@ -68,13 +89,14 @@ a {
   /*color: orange;*/
   /*color: #FFFF64*/
   /*color: #5DA5A1*/
-  color: #5C7293;
+  /*color: #5C7293;*/
+  color: #252161;
 }
 
 h1 {
 	font-size: 22pt;
 	font-weight: bold;
-	color: #5C7293;
+	color: #252161;
 }
 
 #footer {
@@ -82,8 +104,9 @@ h1 {
 	font-size: 10pt;
 	text-align: center;
   clear: both;
-  background-color: #5C7293;
+  background-color: #252161;
   color: white;
+  border-top: 2px solid white;
 }
 #footer a{
 	color: white;
