@@ -138,6 +138,10 @@ h1 {
 	text-decoration: underline;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 .small {
 	font-size: small;
 }
@@ -154,6 +158,14 @@ img.center {
 
 .date-description {
   font-weight: bold;
+}
+
+.news-date {
+  font-weight: bold;
+}
+
+.news-table {
+  background-color: #ffffcc;
 }
 
 /* ---------------------------------------------------------------- */
