@@ -24,7 +24,6 @@ body {
 	margin-left: auto ;
 	margin-right: auto ;
 	position:relative;
-  
   border-right: 2px solid #252161;
   background-color: #252161;
 }
@@ -166,6 +165,15 @@ img.center {
 
 .news-table {
   background-color: #ffffcc;
+  width: 100%;
+}
+.news-table td {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+td {
+  vertical-align: top;
 }
 
 /* ---------------------------------------------------------------- */
