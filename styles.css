@@ -166,6 +166,7 @@ img.center {
 
 .news-date {
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .news-table {
@@ -175,6 +176,10 @@ img.center {
 .news-table td {
   padding-top: .5em;
   padding-bottom: .5em;
+}
+.news-table ul, .news-table li {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .program-table {
