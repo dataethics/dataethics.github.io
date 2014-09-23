@@ -1,6 +1,17 @@
-/* Compass spokes light blue: #252161
-   Banner lettering dark blue: #252161
+/* ---------------------------------------------------------------- */
+/*
+  Style sheet for KDD Data Ethics Workshop 2014
+  http://dataethics.github.io/
+  
+  Kayla Jacobs
 */
+/* ---------------------------------------------------------------- */
+/*  
+  COLOR REFERENCE:
+  Compass spokes light blue: #252161
+  Banner lettering dark blue: #252161
+*/
+/* ---------------------------------------------------------------- */
 
 html { 
 	margin: 0;
@@ -43,14 +54,13 @@ body {
   font-size: 12pt;
   padding: 10px;
   color: white;
+  text-align: center;
   /*background-color: #252161;*/
 }
-
 #nav a {
   color: white;
   text-decoration: none;
 }
-
 #nav ul {
   list-style: none;
   margin: 0;
@@ -76,28 +86,6 @@ body {
   padding-bottom: 8px;
 }
 
-hr {
-  height: 2px;
-  background-color: #252161;
-  border: none;
-}
-
-
-a {
-	/*color: white;	*/
-  /*color: orange;*/
-  /*color: #FFFF64*/
-  /*color: #5DA5A1*/
-  /*color: #5C7293;*/
-  color: #252161;
-}
-
-h1 {
-	font-size: 22pt;
-	font-weight: bold;
-	color: #252161;
-}
-
 #footer {
   padding: 10px;
 	font-size: 10pt;
@@ -112,6 +100,30 @@ h1 {
 }
 
 /* ---------------------------------------------------------------- */
+/* BASIC PAGE ELEMENTS */
+
+hr {
+  height: 2px;
+  background-color: #252161;
+  border: none;
+}
+
+h1 {
+	font-size: 26pt;
+	font-weight: bold;
+	color: #252161;
+}
+
+a {
+	/*color: white;	*/
+  /*color: orange;*/
+  /*color: #FFFF64*/
+  /*color: #5DA5A1*/
+  /*color: #5C7293;*/
+  color: #252161;
+}
+
+/* ---------------------------------------------------------------- */
 /* FLOATS */
 
 .float-right {
@@ -122,15 +134,26 @@ h1 {
 	float: left;
 	margin-right: 10px;
 }
+.float-fix {
+	clear: both;
+	height: 0;
+}
 
 /* ---------------------------------------------------------------- */
-/* FORMATTING */
+/* BASIC FORMATTING */
 
 .bold {
 	font-weight: bold;
 }
 .italic {
 	font-style: italic;
+}
+.small {
+	font-size: small;
+}
+
+.center {
+	text-align: center;
 }
 
 .underline {
@@ -141,41 +164,49 @@ h1 {
   text-decoration: line-through;
 }
 
+ul {
+  margin: 0;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+}
+
+ul li {
+	margin-top: 10px;
+}
+
+td {
+  vertical-align: top;
+}
+
+/* ---------------------------------------------------------------- */
+/* SPECIAL FORMATTING */
+
+.name {
+  font-weight: bold;
+}
+
 .affiliation {
   font-style: italic;
-  margin-left: 0.5em;
-}
-
-.small {
-	font-size: small;
-}
-
-.center {
-	text-align: center;
-}
-
-img.center {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .date-description {
   font-weight: bold;
 }
 
+/* ---------------------------------------------------------------- */
+/* SPECIAL SECTIONS */
+
 .news-date {
   font-weight: bold;
   white-space: nowrap;
 }
-
 .news-table {
   background-color: #ffffcc;
   width: 100%;
 }
 .news-table td {
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: .25em;
+  padding-bottom: .25em;
 }
 .news-table ul, .news-table li {
   margin-top: 0;
@@ -184,8 +215,10 @@ img.center {
 
 .program-table {
   border: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-
 .program-table th{
   background-color: #252161;
   color: white;
@@ -196,31 +229,16 @@ img.center {
   padding-right: 0.5em;
 }
 .program-table td {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding: 0.5em;
 }
-td {
-  vertical-align: top;
+.program-links {
+  text-align: center;
+  white-space: nowrap;
+ }
+.program-time {
+  white-space: nowrap;
 }
-
-/* ---------------------------------------------------------------- */
-/* LISTS */
-
-ul {
-  margin: 0;
-  padding-left: 1.5em;
-  padding-bottom: 1em;
-}
-
-ul li, ol li {
-	margin-top: 10px;
-}
-
-ul.nopadding li, ol.nopadding li {
-  margin: 0;
-  padding: 0;
-}
-
-ul.padding li, ol.padding li{
-	padding-bottom: 1em;
+.program-title {
+  font-weight: bold;
+  font-size: large;
 }
